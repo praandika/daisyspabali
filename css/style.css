@@ -673,3 +673,67 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+/* WA Button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:rgb(88, 199, 88);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.pr-float{
+	position:fixed;
+	width:120px;
+	height:30px;
+	bottom:120px;
+	left:40px;
+	background-color:rgb(167, 19, 174);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:12px;
+    font-size: 35px;
+}
+
+.pr-float{
+	margin-top: 12px;
+    font-size: 35px;
+    font-size: 18px;
+}
+
+.wa {
+    animation: wa-animation 1s infinite;
+}
+  
+@keyframes wa-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(31, 217, 11, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+.pr {
+    animation: pr-animation 1s infinite;
+}
+  
+@keyframes pr-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(217, 11, 193, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
